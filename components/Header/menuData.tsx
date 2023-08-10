@@ -3,36 +3,36 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "Главная",
     newTab: false,
     path: "/"
   },
   {
     id: 2,
-    title: "Features",
+    title: "Возможности сайта",
     newTab: false,
     path: "/#features"
   },
   {
     id: 2.1,
-    title: "Blog",
+    title: "Новости",
     newTab: false,
     path: "/blog"
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "Документация",
     newTab: false,
     path: "/docs"
   },
-  {
+  /* {
     id: 3,
-    title: "Pages",
+    title: "Страницы",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "-",
         newTab: false,
         path: "/blog",
       },
@@ -67,11 +67,12 @@ const menuData: Menu[] = [
         path: "/error",
       },
     ],
-  },
+  }, 
+  */
 
   {
     id: 4,
-    title: "Support",
+    title: "Обратная связь",
     newTab: false,
     path: "/support"
   },
