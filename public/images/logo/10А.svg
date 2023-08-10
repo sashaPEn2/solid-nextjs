@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="339px" height="326px" viewBox="0 0 339 326" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="-0.042813454" y1="0.37579617" x2="0.6911315" y2="1.0605096" id="gradient_1">
+      <stop offset="0%" stop-color="#2A749A" />
+      <stop offset="77.60417%" stop-color="#8D5573" />
+      <stop offset="89.58333%" stop-color="#C1304F" />
+      <stop offset="100%" stop-color="#843F46" />
+    </linearGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" result="hardAlpha" />
+      <feOffset dx="0" dy="2" />
+      <feGaussianBlur stdDeviation="2" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+    </filter>
+    <path d="M0 157C0 70.2913 73.2014 0 163.5 0C253.799 0 327 70.2913 327 157C327 243.709 253.799 314 163.5 314C73.2014 314 0 243.709 0 157Z" id="path_1" />
+  </defs>
+  <g id="Group">
+    <g id="Oval" filter="url(#filter_1)">
+      <use stroke="none" fill="url(#gradient_1)" xlink:href="#path_1" filter="url(#filter_2)" />
+    </g>
+    <g id="10А" transform="translate(18 45)">
+      <g id="10А" fill="#FFFFFF">
+        <path d="M60.7244 36.2216L60.7244 145.313L31.108 145.313L31.108 63.4943L30.4688 63.4943L6.60511 77.7699L6.60511 52.6278L33.4517 36.2216L60.7244 36.2216ZM123.911 148.295Q109.049 148.242 98.2361 141.424Q87.4229 134.606 81.5635 121.768Q75.7041 108.931 75.7574 90.9801Q75.8107 72.9758 81.6434 60.4048Q87.4761 47.8338 98.2627 41.282Q109.049 34.7301 123.911 34.7301Q138.772 34.7301 149.586 41.3086Q160.399 47.8871 166.258 60.4581Q172.117 73.0291 172.064 90.9801Q172.064 109.038 166.205 121.875Q160.345 134.712 149.559 141.504Q138.772 148.295 123.911 148.295ZM123.911 124.219Q131.581 124.219 136.508 116.202Q141.436 108.185 141.382 90.9801Q141.329 74.1477 136.455 66.3707Q131.581 58.5938 123.911 58.5938Q116.24 58.5938 111.393 66.3707Q106.546 74.1477 106.439 90.9801Q106.386 108.185 111.313 116.202Q116.24 124.219 123.911 124.219ZM207.339 145.313L175.378 145.313L211.387 36.2216L251.87 36.2216L287.878 145.313L255.918 145.313L249.633 124.432L213.624 124.432L207.339 145.313ZM220.336 102.273L242.921 102.273L232.055 66.2642L231.202 66.2642L220.336 102.273Z" />
+      </g>
+    </g>
+  </g>
+</svg>

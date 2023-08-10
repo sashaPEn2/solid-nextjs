@@ -39,7 +39,7 @@ const Header = () => {
         <div className="w-full lg:w-1/4 flex items-center justify-between">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src="/images/logo/10A.svg"
               alt="logo"
               width={119.03}
               height={30}
