@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
-                🔥 Solid - A Complete SaaS Web Template
+                🔥 10A Столинской государственной гимназии
               </h4>
               <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
               Free Next.js Template for 

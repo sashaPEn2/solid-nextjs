@@ -43,15 +43,15 @@ const SingleBlogPage = async () => {
 
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mb-7.5">
-                  Categories
+                  Категории
                 </h4>
 
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300 hover:text-primary">
-                    <a href="#">Blog</a>
+                    <a href="#">Новости</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300 hover:text-primary">
-                    <a href="#">Events</a>
+                    <a href="#">Меропрриятия</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300 hover:text-primary">
                     <a href="#">Grids</a>

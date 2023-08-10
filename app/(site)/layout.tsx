@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="eng">
+    <html lang="ru">
       <body className={`dark:bg-black`}>
         <ThemeProvider
           enableSystem={false}

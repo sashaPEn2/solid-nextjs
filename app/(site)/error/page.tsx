@@ -4,8 +4,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Error Page - Solid SaaS Boilerplate",
-  description: "This is Error page for Solid Pro",
+  title: "Страница не найдена - 10А Столинской государственной гимназии",
+  description: "Эта страница не найдена",
   // other metadata
 };
 
@@ -22,18 +22,17 @@ const ErroPage = () => {
         />
 
         <h2 className="font-semibold text-2xl md:text-4xl text-black dark:text-white mb-5">
-          This Page Does Not Exist
+         Эта страница отсутствует
         </h2>
         <p className="mb-7.5">
-          The page you were looking for appears to have been moved, deleted or
-          does not exist.
+         Похоже, страница, которую вы ищете удалена или её не существует
         </p>
 
         <a
           href="/"
           className="inline-flex items-center gap-2.5 bg-black dark:bg-btndark hover:bg-blackho ease-in-out duration-300 font-medium text-white rounded-full px-6 py-3"
         >
-          Return to Home
+          Вернутся на главную 
           <svg
             className="fill-white"
             width="14"
